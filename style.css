@@ -1,0 +1,85 @@
+body {
+      cursor: crosshair;
+      background-image: url("http://www.3dtelepresence.com/hong-kong-to-london-handshake.jpg");
+      background-size: contain;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      height: 100%;
+}
+
+h1{
+  position: relative;
+  top: 1px;
+  color: white;
+  font-family: 'Faster One', cursive;
+  font-size: 2.5vw;
+}
+
+
+a:link {
+  color:white;
+  }
+  a:visited {
+  color:red;
+  }
+  a:hover {
+  color:yellow;
+  }
+
+
+    h2 {
+      color: white;
+      display: inline-block;
+      position: absolute;
+      top: 33.33%;
+      font-family: 'Nova Mono', monospace;
+      font-size: 2.5vw;
+      text-decoration: underline;
+      }
+/*
+h1:hover + h2{
+    display: inline;
+}
+
+*/
+  .row {
+
+position: inherit;
+float: right;
+/*width: 33.33%;*/
+background-color: white;
+padding-top:  1px;
+padding-left:  3px;
+padding-right:  3px;
+position: absolute;
+bottom: 10px;
+right: 10px;
+}
+
+/* Clear floats after the columns */
+/*.row:after {
+content: "";
+display: table;
+clear: both;
+}
+
+*/
+@media screen and (max-width: 600px) {
+  
+   background-image: url("https://d2w9rnfcy7mm78.cloudfront.net/5370007/original_852cadf6ccc2d6af0dc52dfe9eb9efc8.png?1572364834?bc=0");
+   background-size: contain;
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+};
+     
+}
+  
+  
+  .column {
+    width: 100%;
+  }
+}
